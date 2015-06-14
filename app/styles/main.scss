@@ -1,0 +1,130 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@font-face {
+  font-family: 'Faruma';
+  src: url("/fonts/Faruma.ttf");
+  src: local('SF Faruma Bold'), local('Faruma Bold'), url('/fonts/Faruma.ttf') format('truetype');
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+
+.dhivehi {
+  font-family: 'Faruma';
+  text-align: right;
+  direction: rtl;
+}
+
+.form-text .dhivehi {
+  font-family: 'Faruma';
+  text-align: right;
+  font-size: 12pt;
+  direction: rtl;
+}
+
+.control-label-dhivehi {
+  font-family: 'Faruma';
+  text-align: right;
+  font-size: 12pt;
+  font-weight: normal;
+  direction: rtl;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+  line-height: 18px;
+  margin: 0px;
+  color: #666;
+  position: relative;
+  background-image: url("/images/headbg.gif");
+  background-repeat: repeat-x;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 860px;
+}
+
+.form-horizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.form-box1 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+.form-box2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: white;
+}
+
+.form-text {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+  font-weight: normal;
+}
+
+.logo {
+  margin-top: 80px;
+}
+
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.social {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  p {
+    display: inline-block;
+    float: left;
+  }
+  ul li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 8px;
+  }
+}
+
+.copy {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.social a {
+  color: #666;
+}
